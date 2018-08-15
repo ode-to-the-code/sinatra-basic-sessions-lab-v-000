@@ -15,6 +15,7 @@ end
     # binding.pry
     @session = session
     @session["item"] = params["item"]
+    erb :display
   end
   
 
